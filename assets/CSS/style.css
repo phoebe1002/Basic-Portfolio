@@ -1,0 +1,160 @@
+  /*font-family: 'Monoton', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-family: 'Kranky', cursive;
+  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+  /* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  /*text-align: center;*/
+}
+
+  /* Style the navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  margin: 0% 10%;
+  display: block;
+  text-align: right;
+  height: 60px;
+  padding: 20px;
+}
+
+#logo {
+  background-color: black;
+  display:inline-block;
+  float: left;
+  /*width: 10%;*/
+}
+
+#menu {
+  display: inline-block;
+  float: right;
+  /*width: 90%;*/
+}
+  /* Style the nav links */
+.nav a {
+  color: #f2f2f2;
+  padding: 12px; 
+  text-decoration: none;
+}
+
+  /* Change color on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  /* Style About Me content */
+.main-content {
+  background-color: #333;
+  /*width:960px;*/
+  width:80%;
+  margin:0 auto;
+  text-align:left;
+  padding: 20px;
+}
+
+p {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 16px;
+  line-height: 200%;
+} 
+
+#profile-pic {
+  float: left;
+  width:170px;
+  height:170px;
+}
+
+  /* Style Portfolio content */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.photo {
+  position: relative;
+  padding: 25px;
+/*  width:100%;*/
+}
+
+img {
+  width: 100%;
+}
+/*.photo-container {
+  padding: 25px;
+  width:100%;
+  position: relative;
+}*/
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+  /* Clearfix (clear floats) */
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+  /* Style Contact Me content */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+footer {
+  clear: both;  
+  background-color: #ccc;
+  display: block;
+  height: 100px;
+  text-align: center;  
+}
